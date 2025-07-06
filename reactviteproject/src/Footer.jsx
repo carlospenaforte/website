@@ -1,9 +1,9 @@
 
 function Footer(){
     return(
-        <Footer>
+        <footer>
             <p>&copy; My Site</p>
-        </Footer>
+        </footer>
     );
 }
 
