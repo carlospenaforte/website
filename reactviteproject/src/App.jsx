@@ -1,11 +1,11 @@
+import Button from "./Button";
 import Card from "./Card";
 
 function App() {
     return (
         <>
             <Card/>
-            <Card/>
-            <Card/>
+            <Button/>
         </>
     );
 }
