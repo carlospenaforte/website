@@ -5,7 +5,8 @@ import Student from "./Student"
 function App() {
     return (
         <>
-            <Student name="Sponge" />
+            <Student name="Sponge" age={30} isStudent={true}/>
+            <Student name="Patrick" age={29} isStudent={false}/>
             <Card/>
             <Button/>
         </>
