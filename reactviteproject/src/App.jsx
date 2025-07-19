@@ -6,7 +6,7 @@ function App() {
     return (
         <>
             <Student name="Sponge" age={30} isStudent={true}/>
-            <Student name="Patrick" age={29} isStudent={false}/>
+            <Student name="Patrick" age={29} isStudent={false}/>                    
             <Card/>
             <Button/>
         </>
