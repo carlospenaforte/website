@@ -2,13 +2,11 @@ import styles from "./Button.module.css"
 
 function Button(){
 
-    //const styles = {
-    //    
-    //}
+    const handleClick = () => console.log("Ouch!");
+    
+    const handleClick2 = () => console.log('${name} stop clicking me');
 
-    return(
-        <button className={styles.button}>Click Me</button>
-    );
+    return(<button onClick={() => handleClick2("Bro")}>Click Me</button>);
 }
 
 export default Button
