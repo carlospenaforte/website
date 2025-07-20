@@ -1,5 +1,5 @@
 
-function List(){
+function List(props){
 
     const fruits = [{id: 1, name: "apple", price: "$ 1"},
                     {id: 2, name: "orange", price: "$ 4"},

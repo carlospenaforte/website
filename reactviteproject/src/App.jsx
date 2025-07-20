@@ -8,7 +8,7 @@ function App() {
     return (
         <>
             <UserGreeting isLoggedIn = {false} userName = "Charles"/>
-            <List/>
+            <List items={fruits} category="Fruits"/>
         </>
     );
 }
