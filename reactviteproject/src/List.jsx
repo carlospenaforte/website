@@ -3,6 +3,8 @@ function List(){
 
     const fruits = ["apple", "orange", "banana"];
 
+    fruits.sort();
+
     const listItems = fruits.map(fruit => <li>{fruit}</li>);
 
 
