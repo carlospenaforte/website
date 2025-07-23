@@ -11,6 +11,7 @@ import ColorPicker from "./ColorPicker.jsx";
 function App() {
     return (
         <>
+            <Object/>
             <MyComponent />
             <Counter /> 
             <OnChange/>
