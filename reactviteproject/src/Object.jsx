@@ -8,14 +8,25 @@ function Object(){
 
     function handleYearChange(event){
         
+        setCar(c => ({...car, year: event.target.value}));
+    }
+
+    function handleMakeChange(event){
+        
+        setCar(c => ({...car, make: event.target.value}));
+    }
+
+    function handleModelChange(event){
+        
+        setCar(c => ({...car, model: evet.target.value}));
     }
 
     return(<div>
         <p>Your favorite car is: {car.make}, {car.model}, {car.year}</p>
 
-        <input type="number" value={car.year}/><br/>
-        <input type="text" value={car.make}/><br/>
-        <input type="text" value={car.model}/><br/>    
+        <input type="number" value={car.year} onChange={handleYearChange}/><br/>
+        <input type="text" value={car.make} onChange={handleMakeChange}/><br/>
+        <input type="text" value={car.model} onChange={handleModelChange}/><br/>    
     </div>);
 
 }
