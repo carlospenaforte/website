@@ -8,9 +8,12 @@ import Counter from "./Counter.jsx";
 import OnChange from "./OnChange.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import updateArray from "./updateArray.jsx";
+import arrayobject from "./arrayobject.jsx";
 
 function App() {
-    return (<updateArray/>);
+    return (<>
+        <arrayobject/>      
+    </>);
 }
 
 export default App

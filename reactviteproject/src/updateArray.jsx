@@ -13,7 +13,7 @@ function updateArray(){
     }
 
     function handleRemoveFood(){
-        
+
     }
 
     return(<div>
@@ -26,4 +26,4 @@ function updateArray(){
     </div>);
 }
 
-export default updateArray
+export default updateArray;
