@@ -10,11 +10,7 @@ import ColorPicker from "./ColorPicker.jsx";
 import updateArray from "./updateArray.jsx";
 
 function App() {
-    return (
-        <>
-            <updateArray/>
-        </>
-    );
+    return (<updateArray/>);
 }
 
 export default App
